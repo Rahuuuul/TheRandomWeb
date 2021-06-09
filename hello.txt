@@ -1,0 +1,7 @@
+google.com
+youtube.com
+apple.com
+github.com
+facebook.com
+instagram.com
+rosk2006.github.io/why.html
