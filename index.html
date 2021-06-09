@@ -23,7 +23,7 @@
             <!--PHP and JS (I feel like this is very wrong lol)-->
 
             <?php
-            $urls = file_get_contents('https://raw.githubusercontent.com/rosk2006/TheRandomWeb/main/hello.txt?token=AG26SCJG4NM4OFO3LARYXQTAZFAM6, FILE_IGNORE_NEW_LINES);
+            $urls = file_get_contents('https://raw.githubusercontent.com/rosk2006/TheRandomWeb/main/hello.txt', FILE_IGNORE_NEW_LINES);
             $random = $urls[mt_rand(0, count($urls) - 1)];    
             ?>
          <script type="text/javascript">
